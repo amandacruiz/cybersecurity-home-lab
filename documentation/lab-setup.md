@@ -18,7 +18,10 @@ Platform:
 
 ## Virtual Machines
 
-### Kali Linux
+### Kali Linux VM Resources
+
+- RAM: 4 GB
+- CPU: 2 processors
 
 Purpose:
 - Security testing environment
@@ -38,12 +41,13 @@ Purpose:
 ## Network Configuration
 
 Current Setup:
-- Host-only network configured in VirtualBox
-- Virtual machines can communicate in an isolated environment
-- External network access can be enabled when updates or software downloads are required
+- One network adapter configured per virtual machine
+- Adapter settings are manually changed depending on the task
+- Host-only networking is used for isolated lab exercises
+- External connectivity is enabled when updates or software downloads are required
 
 Purpose:
-- Provides a controlled environment for practicing cybersecurity concepts without affecting the home network
+- Provides a controlled environment for practicing cybersecurity concepts while allowing software updates when needed
 
 ## Current Learning Focus
 
