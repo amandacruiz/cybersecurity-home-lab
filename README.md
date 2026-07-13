@@ -6,35 +6,43 @@ This repository documents my cybersecurity home lab setup and my hands-on learni
 
 ## Lab Goals
 
-- Build familiarity with Linux environments
+- Build confidence with Linux environments
 - Practice networking concepts
-- Learn security tools and techniques
+- Learn cybersecurity tools and techniques
 - Develop hands-on troubleshooting skills
 - Document my progress and lessons learned
 
 ## Current Environment
 
+### Host Machine
+- Lenovo Yoga 2-in-1
+- Windows 11 Pro
+- 16GB RAM
+- 1TB storage
+
 ### Virtualization
 - VirtualBox
 
 ### Virtual Machines
-- Kali Linux - security testing environment
+- Kali Linux - security learning and testing environment
 - Ubuntu - Linux practice and target machine
 
-### Network Configuration
-- Host-only network for isolated lab communication
+### Networking
+- Host-only network configured for isolated lab exercises
+- External connectivity used when updates or software downloads are needed
 
-## Current Skills Practiced
+## Current Learning Activities
 
-- Linux command line basics
-- Virtual machine management
-- Network scanning with Nmap
-- Cybersecurity lab exercises
+- Hack The Box
+- TryHackMe
+- Cybersecurity coursework
+- Linux fundamentals
+- Networking fundamentals
 
 ## Future Additions
 
-- Windows virtual machine
-- Vulnerability scanning
-- Log analysis
+- Additional virtual machines
+- Vulnerability scanning exercises
+- Log analysis practice
 - Digital forensics exercises
-- Additional security tools
+- Security tool documentation
