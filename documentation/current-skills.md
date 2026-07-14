@@ -12,6 +12,10 @@ This document tracks my current cybersecurity knowledge and areas I am actively 
 
 ## Currently Learning
 
+
+- LinkedIn Learning: Network+ (N10-009) Cert Prep
+  - Currently studying network models and foundational networking concepts
+
 ### Linux
 - Navigating the Linux file system
 - Using the command line
