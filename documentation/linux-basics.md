@@ -9,8 +9,6 @@ This document tracks my progress learning Linux fundamentals in my cybersecurity
 Purpose:
 Identifies the currently logged-in user.
 
-Command:
-```bash
 whoami
 Result:
 kali
@@ -20,8 +18,6 @@ kali
 Purpose:
 Whos the current working directory.
 
-Command:
-```bash
 pwd
 Result:
 /home/kali
@@ -31,8 +27,6 @@ Result:
 Purpose:
 Lists files and directories in the current location
 
-Command:
-```bash
 ls
 Result:
 Desktop
