@@ -7,7 +7,7 @@ This document tracks my progress learning Linux fundamentals in my cybersecurity
 ### whoami
 
 Purpose:
-Identifies the currently logged-in user.
+Identifies the currently logged-in user
 
 whoami
 Result:
@@ -16,7 +16,7 @@ kali
 ### pwd
 
 Purpose:
-Whos the current working directory.
+Who's the current working directory
 
 pwd
 Result:
@@ -38,8 +38,21 @@ Public
 Templates
 Videos
 
+### cd
+
+Purpose: 
+Change directory
+
+cd Documents
+Result:
+/home/kali/Documents
+
 ## Evidence
 
 Screenshot showing my first Linux commands in Kali:
 
 ![First Linux Commands](../screenshots/07-first-linux-commands.png)
+
+Screenshot showing how to move between directories using cd and ..
+
+![First Linux Commands](../screenshots/08-linux-commands-cd.png)
