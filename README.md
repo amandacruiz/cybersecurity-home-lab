@@ -1,5 +1,8 @@
 # Cybersecurity Home Lab
 
+Part of my cybersecurity portfolio:  
+[amanda-c-ruiz portfolio](https://github.com/amandacruiz/amanda-c-ruiz)
+
 ## Overview
 
 This repository documents my cybersecurity home lab setup and my hands-on learning journey as I build foundational skills in networking, Linux, security tools, and vulnerability analysis.
