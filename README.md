@@ -5,7 +5,15 @@ Part of my cybersecurity portfolio:
 
 ## Overview
 
-This repository documents my cybersecurity home lab setup and my hands-on learning journey as I build foundational skills in networking, Linux, security tools, and vulnerability analysis.
+I built a VirtualBox-based cybersecurity home lab to practice offensive security, system administration, and defensive monitoring in an isolated environment.
+
+The lab consists of three virtual machines:
+
+- **Kali Linux** — Attack machine used for reconnaissance, scanning, and security testing.
+- **Ubuntu-Target** — Target machine used to host services and simulate vulnerable systems.
+- **Ubuntu-SOC** — Security monitoring environment used for log analysis, detection, and defensive security practice.
+
+The lab uses a Host-Only network to allow communication between systems while keeping the environment isolated from my personal network.
 
 ## Lab Goals
 
@@ -13,7 +21,8 @@ This repository documents my cybersecurity home lab setup and my hands-on learni
 - Practice networking concepts
 - Learn cybersecurity tools and techniques
 - Develop hands-on troubleshooting skills
-- Document my progress and lessons learned
+- Document my progress, configurations, and lessons learned
+- Practice both offensive and defensive security workflows
 
 ## Current Environment
 
@@ -27,12 +36,31 @@ This repository documents my cybersecurity home lab setup and my hands-on learni
 - VirtualBox
 
 ### Virtual Machines
-- Kali Linux - security learning and testing environment
-- Ubuntu - Linux practice and target machine
+
+- **Kali Linux** - offensive security learning environment used for reconnaissance, scanning, and security testing
+- **Ubuntu-Target** - target machine used for hosting services and simulating vulnerable systems
+- **Ubuntu-SOC** - security monitoring environment used for log analysis, detection, and defensive security practice
 
 ### Networking
-- Host-only network configured for isolated lab exercises
-- External connectivity used when updates or software downloads are needed
+
+- Host-only network configured for isolated communication between lab machines
+- NAT adapters used when systems require internet access for updates or software installation
+- Lab traffic remains separated from my personal network
+
+## Lab Architecture
+
+```text
+                VirtualBox Host
+                       |
+               Host-Only Network
+                       |
+        --------------------------------
+        |              |               |
+     Kali Linux    Ubuntu-SOC    Ubuntu-Target
+      Red Team      Blue Team     Lab Target
+```
+
+This three-machine design allows me to simulate security scenarios by generating activity from Kali, monitoring events through the SOC environment, and analyzing activity on the target system.
 
 ## Current Learning Activities
 
@@ -44,8 +72,9 @@ This repository documents my cybersecurity home lab setup and my hands-on learni
 
 ## Future Additions
 
-- Additional virtual machines
-- Vulnerability scanning exercises
-- Log analysis practice
-- Digital forensics exercises
-- Security tool documentation
+- Deploy SIEM tools for centralized log collection and analysis
+- Perform vulnerability scanning and assessment exercises
+- Practice attack-and-defense scenarios between Kali and target systems
+- Analyze security events and create detection documentation
+- Expand into digital forensics exercises
+- Continue documenting security tools and techniques
