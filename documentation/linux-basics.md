@@ -51,8 +51,8 @@ Result:
 
 Screenshot showing my first Linux commands in Kali:
 
-![First Linux Commands](../screenshots/07-first-linux-commands.png)
+![First Linux Commands](../screenshots/kali/07-first-linux-commands.png)
 
 Screenshot showing how to move between directories using cd and ..
 
-![First Linux Commands](../screenshots/08-linux-commands-cd.png)
+![First Linux Commands](../screenshots/kali/08-linux-commands-cd.png)
