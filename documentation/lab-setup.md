@@ -99,7 +99,15 @@ The Kali Linux virtual machine serves as the primary security testing workstatio
 
 ### Ubuntu SOC Workstation
 
-The Ubuntu SOC virtual machine is intended to support future projects involving security monitoring, log analysis, and defensive cybersecurity concepts. It is configured with a static IP address on the same isolated network.
+The Ubuntu SOC virtual machine functions as the security monitoring server within the lab environment. It is configured to support defensive cybersecurity exercises involving security monitoring, log analysis, vulnerability assessment, and incident response concepts.
+
+The SOC workstation currently hosts Wazuh as the Security Information and Event Management (SIEM) platform. Wazuh provides centralized security monitoring capabilities by collecting endpoint data, analyzing security events, and generating alerts.
+
+Installed Components:
+- Wazuh Manager
+- Wazuh Indexer
+- Wazuh Dashboard
+- Filebeat
 
 ![Ubuntu SOC IP Address](../screenshots/ubuntu/ubuntu-soc-ip-address.png)
 
@@ -138,6 +146,9 @@ The lab currently supports:
 - Host-only network configuration
 - Static IP address configuration
 - Multi-VM communication within an isolated environment
+- Security testing using Kali Linux
+- Centralized security monitoring using Wazuh
+- Security event collection and analysis
 - Documentation of lab configuration and changes
 
 ### Planned Enhancements
@@ -146,9 +157,9 @@ As I continue building this lab, I plan to add:
 
 - SSH administration between virtual machines
 - Packet capture and analysis with Wireshark
-- Network scanning with Nmap
-- Vulnerability assessment tools
-- Wazuh for security monitoring
-- MITRE ATT&CK mapping
+- Vulnerability assessment workflows
+- MITRE ATT&CK mapping exercises
 - Security logging and event analysis
+- Endpoint monitoring using Wazuh agents
+- Incident response scenarios
 - Additional defensive security projects
