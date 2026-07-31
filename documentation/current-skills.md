@@ -1,61 +1,95 @@
-# Current Skills Assessment
+# Current Skills
 
-This document tracks my current cybersecurity knowledge and areas I am actively developing.
+## Introduction
 
-## Comfortable With
+This document tracks the technical skills I am currently developing through my cybersecurity coursework and home lab practice. Skills are updated as I gain hands-on experience with new technologies, tools, and security concepts.
 
-- Creating and managing virtual machines using VirtualBox
-- Basic VM configuration and troubleshooting
-- Setting up an isolated lab environment using a host-only network
-- Navigating cybersecurity learning platforms such as Hack The Box and TryHackMe
-- Following guided cybersecurity exercises and documenting progress
+---
 
-## Currently Learning
+## Virtualization and Lab Management
 
+### Current Skills
 
-- LinkedIn Learning: Network+ (N10-009) Cert Prep
-  - Currently studying network models and foundational networking concepts
+- Creating and managing virtual machines using Oracle VirtualBox
+- Configuring isolated lab environments for cybersecurity practice
+- Managing Kali Linux and Ubuntu virtual machines
+- Allocating system resources such as RAM and CPU for virtual machines
+- Troubleshooting virtual machine configuration issues
 
-### Linux
-- Navigating the Linux file system
-- Using the command line
-- Understanding Linux permissions and users
+### Evidence
 
-### Networking
-- Understanding IP addresses and ports
-- Network communication between virtual machines
-- Basic network scanning concepts
+Completed:
+- Built a three-virtual-machine cybersecurity lab environment
+- Configured host-only networking for isolated communication between systems
+- Documented lab architecture and configuration changes
 
-### Security Tools
-- Nmap
-- Basic security testing workflows
-- Understanding the purpose of common cybersecurity tools
+---
 
-### Remote Access
-- Learning SSH connections between systems
+## Linux Fundamentals
 
-## Hands-On Experience
+### Current Skills
 
-- Completed first Hack The Box machine:
-  - Meow
-  - Used guided documentation to understand the workflow
-  - Planning to revisit the machine without guidance
+- Navigating Linux file systems using the command line
+- Using basic Linux commands:
+  - `whoami`
+  - `pwd`
+  - `ls`
+  - `cd`
+- Understanding basic Linux directory structures
+- Working within Kali Linux and Ubuntu environments
 
-- Created a virtual lab environment with:
-  - Kali Linux
-  - Ubuntu
-  - VirtualBox
+### Evidence
 
-## Learning Platforms
+Completed:
+- Documented initial Linux command-line practice
+- Practiced navigation and file system exploration within Kali Linux
 
-- Hack The Box
-- TryHackMe
-- Cybersecurity coursework
+---
 
-## Future Learning Goals
+## Networking Fundamentals
 
-- Become comfortable with Linux administration
-- Build stronger networking fundamentals
-- Practice vulnerability assessment
-- Learn digital forensics concepts
-- Document hands-on security exercises
+### Current Skills
+
+- Understanding basic IP addressing
+- Configuring host-only virtual networks
+- Assigning and verifying virtual machine network settings
+- Understanding communication between systems within an isolated environment
+
+### Evidence
+
+Completed:
+- Configured communication between Kali Linux and Ubuntu virtual machines
+- Verified IP addresses and network configurations
+
+---
+
+## Security Tools and Concepts
+
+### Current Skills
+
+- Introduction to cybersecurity tools and workflows
+- Basic familiarity with Nmap
+- Understanding the purpose of security testing environments
+- Beginning to explore offensive and defensive security concepts
+
+### Evidence
+
+Completed:
+- Used Nmap during guided cybersecurity exercises
+- Created an isolated environment for future security testing
+
+---
+
+## Skills Currently Developing
+
+The following skills are areas I am actively building through coursework and continued home lab expansion:
+
+- Linux administration
+- Networking fundamentals
+- Vulnerability assessment
+- Security monitoring
+- Log analysis
+- MITRE ATT&CK framework
+- SIEM tools
+- Bash scripting
+- Digital forensics concepts
