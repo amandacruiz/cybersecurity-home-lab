@@ -5,7 +5,7 @@ Part of my cybersecurity portfolio:
 
 ## Overview
 
-I built a VirtualBox-based cybersecurity home lab to practice offensive security, system administration, and defensive monitoring in an isolated environment.
+I built a VirtualBox-based cybersecurity home lab to develop hands-on experience with Linux administration, networking, offensive security concepts, and defensive monitoring in an isolated environment.
 
 The lab consists of three virtual machines:
 
@@ -62,13 +62,48 @@ The lab uses a Host-Only network to allow communication between systems while ke
 
 This three-machine design allows me to simulate security scenarios by generating activity from Kali, monitoring events through the SOC environment, and analyzing activity on the target system.
 
+## Documentation
+
+Detailed documentation for this home lab:
+
+- [Lab Setup](documents/lab-setup.md)  
+  - Virtual machine configuration
+  - Network design
+  - Three-VM architecture
+  - Lab evolution
+
+- [Linux Basics](documents/linux-basics.md)  
+  - Linux command-line fundamentals
+  - Kali Linux and Ubuntu exploration
+  - Initial Linux exercises
+
+- [Current Skills](documents/current-skills.md)  
+  - Technical skills currently being developed
+  - Hands-on experience gained through lab practice
+
+- [Lessons Learned](documents/lessons-learned.md)  
+  - Troubleshooting experiences
+  - Challenges encountered
+  - Improvements made to the lab environment
+
 ## Current Learning Activities
 
-- Hack The Box
-- TryHackMe
-- Cybersecurity coursework
-- Linux fundamentals
+- Cybersecurity coursework through the EFSC BAS Cybersecurity program
+- Hack The Box practice
+- TryHackMe exercises
+- Linux command-line fundamentals
 - Networking fundamentals
+- Virtual machine administration
+
+## Skills Demonstrated
+
+- VirtualBox virtualization and lab management
+- Kali Linux and Ubuntu administration
+- Host-only network configuration
+- Basic Linux command-line usage
+- IP addressing and network configuration
+- Cybersecurity lab documentation
+- Security-focused troubleshooting
 
 ## Future Additions
 
